@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="ordering">
+        <form class="ordering__data" action="">
+          <h3 class="ordering__data-title title">Данные получателя</h3>
+          <div class="input__text">
+            <input class="input__border-radius" type="text" placeholder="Фамилия">
+            <input class="input__border-radius" type="text" placeholder="Имя">
+            <input class="input__border-radius" type="text" placeholder="Отчество">
+          </div>
+          <div class="input__number">
+            <input class="input__border-radius" type="number" id="number" placeholder="Номер телефона">
+            <label for="number">По этому номеру телефона мы свяжемся с вами для подтверждения заказа</label>
+          </div>
+          <div class="input__email">
+            <input class="input__border-radius" type="email" id="email" placeholder="E-mail">
+            <label for="email">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его
+              отслеживания</label>
+          </div>
+          <div class="input__checkbox">
+            <input type="checkbox" name="" id="checkbox" checked>
+            <label for="checkbox">Подписаться на рассылку новинок и акций</label>
+          </div>
+        </form>
+        <form class="ordering__payment" action="">
+          <h3 class="ordering__data-title title">Способ оплаты</h3>
+          <div class="input__radio">
+            <label>
+              <input type="radio">Оплата при получении наличными
+              или картой
+            </label>
+          </div>
+          <div class="input__radio">
+            <label>
+              <input type="radio" checked>Оплата банковской картой
+              онлайн
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
