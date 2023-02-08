@@ -1,3 +1,140 @@
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+
+.header {
+  background-image: url(/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.header__top {
+  background-color: #000000;
+}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.wrap {
+  display: flex;
+  margin-top: 90px;
+}
+
+.header__content-inner {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  row-gap: 42px;
+}
+
+.header__content-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  max-width: 670px;
+  color: #fff;
+}
+
+.header__content-separator {
+  width: 170px;
+  border: 1px solid #fff;
+}
+
+.header__content-subtitle {
+  font-family: 'Raleway', sans-serif;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #fff;
+}
+
+.header__content-button {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600px;
+  padding: 15px 24px;
+  line-height: 24.51px;
+  width: 270px;
+}
+
+.header__form {
+  width: 470px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.header__form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__form-title span {
+  color: #EC7979;
+}
+
+.header__form-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 50px 60px 50px;
+  gap: 60px;
+  width: 370px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+input {
+  width: 370px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__form-button {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #EC7979;
+  color: #fff;
+  border: #fff;
+  border-radius: 0 0 10px 10px;
+}
